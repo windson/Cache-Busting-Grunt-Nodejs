@@ -2,6 +2,7 @@
 Cache-Busting using Grunt and Nodejs
 
 Web applications often run the problem of zombie cached references to .css and .js files in the enduser's machines. In order to give seamless updates made to these file types we need a mechanism to bust out the cached css and js whenever there is a change in the content of these files. The Cache busting approach enables the application to name the .js and .css files with the sha5 hashcode of the contents to the name of the file in the following format
+	
 	filename.sha5hashcode.js
 	filename.sha5hashcode.css
 
