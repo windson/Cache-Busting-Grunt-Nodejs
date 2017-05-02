@@ -8,6 +8,8 @@ Web applications often run the problem of zombie cached references to .css and .
 
 When the file contents changes the sha5 hashcode of the file changes and thus the index.html file will be updated with the new references to these files there by busting the cached files. Doing so will enable the users of the web application to receive latest updates all the time.
 
+Steps to run the application
+
 1. Open index.html
 2. Check the references for css and js files in the head tag of the html
 		scripts/style.css
